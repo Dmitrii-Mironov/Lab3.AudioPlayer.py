@@ -55,3 +55,11 @@ class AudioPlayer:
             pygame.mixer.music.stop()
         except Exception as e:
             messagebox.showerror("Error", f"Error stopping audio: {str(e)}")
+
+    def set_window_size(self):
+        try:
+            width = int(tk.simpledialog.askstring("Width", "Enter window width:"))
+            height = int(tk.simpledialog.askstring("Height", "Enter window height:"))
+            self.master.geometry(f"{width}x{height}")
+        except ValueError:
+            messagebox.showerror("Error", "Invalid size input. Please enter valid integers.")

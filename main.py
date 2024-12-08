@@ -30,3 +30,13 @@ class AudioPlayer:
         self.size_button = tk.Button(self.master, text="Set Window Size", command=self.set_window_size, \
                                      bg="brown", fg="yellow", font=("Helvetica", 12, "bold"), width=30, height=3)
         self.size_button.pack(pady=20)
+
+    def load_audio(self):
+        try:
+            self.file_path = filedialog.askopenfilename(filetypes=[("Audio Files", "*.mp3 *.wav *.ogg")])
+            if not self.file_path:
+                raise ValueError("No file selected")
+            pygame.mixer.music.load(self.file_path)
+            messagebox.showinfo("Success", "Audio file loaded successfully!")
+        except Exception as e:
+            messagebox.showerror("Error", f"Error loading audio file: {str(e)}")

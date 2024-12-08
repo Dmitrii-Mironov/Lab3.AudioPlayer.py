@@ -40,3 +40,12 @@ class AudioPlayer:
             messagebox.showinfo("Success", "Audio file loaded successfully!")
         except Exception as e:
             messagebox.showerror("Error", f"Error loading audio file: {str(e)}")
+
+    def play_audio(self):
+        try:
+            if hasattr(self, 'file_path'):# проверяет, есть ли у указанного объекта атрибут с заданным именем
+                pygame.mixer.music.play()
+            else:
+                raise ValueError("No audio file loaded")
+        except Exception as e:
+            messagebox.showerror("Error", f"Error playing audio: {str(e)}")

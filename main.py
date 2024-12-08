@@ -63,3 +63,11 @@ class AudioPlayer:
             self.master.geometry(f"{width}x{height}")
         except ValueError:
             messagebox.showerror("Error", "Invalid size input. Please enter valid integers.")
+
+def main():
+    root = tk.Tk()
+    player = AudioPlayer(root)
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()

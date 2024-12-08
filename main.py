@@ -49,3 +49,9 @@ class AudioPlayer:
                 raise ValueError("No audio file loaded")
         except Exception as e:
             messagebox.showerror("Error", f"Error playing audio: {str(e)}")
+
+    def stop_audio(self):
+        try:
+            pygame.mixer.music.stop()
+        except Exception as e:
+            messagebox.showerror("Error", f"Error stopping audio: {str(e)}")

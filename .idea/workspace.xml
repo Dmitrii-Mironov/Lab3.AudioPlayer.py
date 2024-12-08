@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2438cffe-0e74-409c-bfca-474c1bc34952" name="Changes" comment="" />
+    <list default="true" id="2438cffe-0e74-409c-bfca-474c1bc34952" name="Changes" comment="def play_audio(self)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,17 +65,57 @@
       <option name="presentableId" value="Default" />
       <updated>1733692046080</updated>
     </task>
+    <task id="LOCAL-00001" summary="class AudioPlayer">
+      <option name="closed" value="true" />
+      <created>1733692200306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733692200306</updated>
+    </task>
+    <task id="LOCAL-00002" summary="def create_widgets(self)">
+      <option name="closed" value="true" />
+      <created>1733692279986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733692279986</updated>
+    </task>
+    <task id="LOCAL-00003" summary="def load_audio(self)">
+      <option name="closed" value="true" />
+      <created>1733692347760</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733692347760</updated>
+    </task>
+    <task id="LOCAL-00004" summary="def play_audio(self)">
+      <option name="closed" value="true" />
+      <created>1733692410973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733692410973</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="class AudioPlayer" />
+    <MESSAGE value="def create_widgets(self)" />
+    <MESSAGE value="def load_audio(self)" />
+    <MESSAGE value="def play_audio(self)" />
+    <option name="LAST_COMMIT_MESSAGE" value="def play_audio(self)" />
   </component>
 </project>
